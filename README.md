@@ -41,8 +41,8 @@ A modern, secure note-taking application built with React that allows users to s
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/SakshamShri/FINAL-PROJECT-PRIVACY-FOCUSED-NOTES-APP-WITH-ENCRYPTION.git
-   cd FINAL-PROJECT-PRIVACY-FOCUSED-NOTES-APP-WITH-ENCRYPTION
+   git clone https://github.com/SakshamShri/FINAL-PROJECT-ELEVATE_LABS-PRIVACY-FOCUSED-NOTES-APP.git
+   cd FINAL-PROJECT-ELEVATE_LABS-PRIVACY-FOCUSED-NOTES-APP
    ```
 
 2. **Install dependencies**
