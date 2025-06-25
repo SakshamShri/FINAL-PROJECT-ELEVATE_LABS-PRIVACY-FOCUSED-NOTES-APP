@@ -217,7 +217,7 @@ const Passwords = () => {
     return c;
   };
   return (
-    <div>
+    <div className="passwords-theme">
       <div className="note_navbar">
         <button onClick={showNotes}>Show Passwords</button>
         <button

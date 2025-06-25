@@ -1,7 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Checklist from "./pages/Checklist";
 import Notes from "./pages/Notes";
 import Passwords from "./pages/Passwords";
 import { useState, useEffect } from "react";
@@ -22,7 +21,6 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/checklist" element={<Checklist />}></Route>
             <Route path="/notes" element={<Notes />}></Route>
             <Route path="/passwords" element={<Passwords />}></Route>
             {/*

@@ -139,7 +139,7 @@ const Home = () => {
     };
   }, []);
   return (
-    <div>
+    <div className="home-theme">
       <div className={showAddPassword}>
         <div className="add_note">
           <h4>Add Passkey</h4>
@@ -219,7 +219,6 @@ const Home = () => {
       </div>
       <div className={showSelectOptions}>
         <div className="select_box">
-          <Link to="/checklist">Links</Link>
           <Link to="/notes">Notes</Link>
           <Link to="/passwords">Passwords</Link>
           <a

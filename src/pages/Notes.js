@@ -190,9 +190,10 @@ const Notes = () => {
     setModal("modal hide");
   };
   return (
-    <div>
+    <div className="notes-theme">
       <div className="note_navbar">
         <button onClick={showNotes}>Show notes</button>
+        <span style={{ color: 'var(--gray-600)', fontSize: '0.875rem', marginLeft: '4px' }}>Click on show notes button to see all your notes</span>
         <button
           onClick={() => {
             setAddModal("modal");
